@@ -1,0 +1,17 @@
+Section A: Definitions
+Database: A structured collection of data that is organized and stored in a computer system.
+Table: A structured representation of data in rows and columns within a database. Tables are used to store related data.
+Record: Also known as a row, it represents a single instance of data within a table. A record contains values for each field in the table.
+Field: Also known as a column, it represents a single piece of data within a record. Fields define the characteristics or attributes of the data stored in a table.
+Primary Key: A unique identifier for each record in a table. It ensures that each record can be uniquely identified and provides a way to enforce data integrity.
+SQL (Structured Query Language): A domain-specific language used for managing and manipulating relational databases. It is commonly used for tasks such as querying data, updating data, and defining database structures.
+Query: A request for information from a database. Queries are written in SQL and are used to retrieve, manipulate, or perform operations on data stored in a database.
+Index: A data structure used to improve the speed of data retrieval operations on a database table. Indexes allow for faster access to specific rows or ranges of rows within a table.
+Normalization: The process of organizing data in a database to reduce redundancy and dependency. It involves breaking down large tables into smaller, related tables and defining relationships between them to improve data integrity and reduce data duplication.
+Database Management System (DBMS): Software that enables users to interact with and manage databases. A DBMS provides tools and interfaces for creating, querying, updating, and administering databases.
+Section B: Discussions
+2.1.1. Purpose of a Primary Key: The primary key uniquely identifies each record in a table and ensures data integrity by preventing duplicate or null values. For example, in a "Students" table, the primary key might be "StudentID", ensuring that each student has a unique identifier.
+
+2.1.2. Difference between DBMS and Database: A database is an organized collection of data, while a DBMS is software used to manage, manipulate, and interact with databases. In other words, a database is a passive container for data, whereas a DBMS provides the tools and functionalities to actively work with that data.
+
+2.1.3. Importance of Normalization: Normalization reduces data redundancy and improves data integrity by organizing data into logical and efficient structures. For example, suppose we have a "Customers" table with redundant information such as customer addresses. By normalizing the database and creating a separate "Addresses" table linked to the "Customers" table via foreign keys, we can avoid storing duplicate address information for each customer, thereby reducing storage space and ensuring consistency in the data
